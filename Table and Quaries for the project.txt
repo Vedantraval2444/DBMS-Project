@@ -1,0 +1,440 @@
+create table Cars(
+    CarID varchar2 (6) primary key,
+    Country varchar2 (20), 
+    CarName varchar2 (20),
+    CarModel varchar2 (20),
+    ReleaseYear numeric (4)
+);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('ABC123', 'Japan', 'Toyota Camry', 'Sedan', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('XYZ789', 'Germany', 'BMW 3 Series', 'Coupe', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('QWE456', 'USA', 'Ford Mustang', 'Convertible', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('JKL321', 'South Korea', 'Hyundai Sonata', 'Sedan', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('MNO987', 'Italy', 'Ferrari 488', 'Sports Car', 2018);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('PQR654', 'Sweden', 'Volvo XC90', 'SUV', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('UVW890', 'Japan', 'Honda Civic', 'Hatchback', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('DEF234', 'USA', 'Chevrolet Silverado', 'Truck', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('GHI567', 'Germany', 'Mercedes-Benz C-Class', 'Sedan', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('RST321', 'South Korea', 'Kia Sportage', 'SUV', 2017);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('LMN456', 'Italy', 'Lamborghini Huracan', 'Sports Car', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('HIJ789', 'Sweden', 'Saab 9-3', 'Sedan', 2015);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('OPQ012', 'Japan', 'Nissan Rogue', 'SUV', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES
+('VWX345', 'Germany', 'Volkswagen Golf', 'Hatchback', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('YZA678', 'USA', 'Tesla Model 3', 'Electric', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('BCD901', 'South Korea', 'Genesis G80', 'Luxury Sedan', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('KLM234', 'Italy', 'Maserati GranTurismo', 'Grand Tourer', 2017);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('NOP567', 'Sweden', 'Scania R-series', 'Truck', 2018);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('UVW890', 'Japan', 'Subaru Outback', 'Wagon', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('XYZ123', 'Germany', 'Audi Q5', 'SUV', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('RST456', 'USA', 'Jeep Wrangler', 'Off-Road', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('GHI789', 'South Korea', 'Hyundai Kona', 'Compact SUV', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('ABC012', 'Italy', 'Alfa Romeo Giulia', 'Sports Sedan', 2016);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('DEF345', 'Sweden', 'Polestar 2', 'Electric', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('JKL678', 'Japan', 'Mazda CX-5', 'Crossover', 2018);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('PQR901', 'Germany', 'Porsche 911', 'Sports Car', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('MNO234', 'USA', 'GMC Sierra', 'Pickup Truck', 2017);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('YZA567', 'South Korea', 'Samsung XM3', 'Crossover', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('HIJ890', 'Italy', 'Fiat 500', 'Subcompact', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('VWX123', 'Sweden', 'Koenigsegg Jesko', 'Hypercar', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('NOP456', 'Japan', 'Mitsubishi Outlander', 'SUV', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('BCD789', 'Germany', 'Mercedes-AMG GT', 'Sports Car', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('XYZ012', 'USA', 'Ram 1500', 'Pickup Truck', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('LMN345', 'South Korea', 'Kia Telluride', 'Midsize SUV', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('QWE678', 'Italy', 'Lancia Delta', 'Hatchback', 2018);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('UVW901', 'Sweden', 'Hennessey Venom F5', 'Hypercar', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('DEF234', 'Japan', 'Suzuki Jimny', 'Compact SUV', 2017);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('KLM567', 'Germany', 'Opel Corsa', 'Subcompact', 2021);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('OPQ890', 'USA', 'Cadillac Escalade', 'Luxury SUV', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('RST123', 'South Korea', 'SsangYong Rexton', 'SUV', 2016);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('GHI456', 'Italy', 'Pagani Huayra', 'Hypercar', 2017);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('MNO789', 'Sweden', 'Borgward BX7', 'Crossover', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('JKL012', 'Japan', 'Lexus RX', 'Luxury SUV', 2022);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('NOP345', 'Germany', 'Smart EQ ForTwo', 'Electric', 2018);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('VWX678', 'USA', 'Buick Enclave', 'Midsize SUV', 2019);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('YZA901', 'South Korea', 'Daewoo Matiz', 'Subcompact', 2015);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('BCD234', 'Japan', 'Toyota Prius', 'Hybrid', 2018);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('PQR567', 'Germany', 'Opel Astra', 'Hatchback', 2020);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('HIJ890', 'USA', 'Chevrolet Camaro', 'Sports Car', 2016);
+INSERT INTO Cars (CarID, Country, CarName, CarModel, ReleaseYear) VALUES 
+('XYZ123', 'South Korea', 'Hyundai Tucson', 'Crossover', 2019);
+
+CREATE TABLE Bikes (
+    BikeID VARCHAR(12) PRIMARY KEY,
+    BikeCompanyName VARCHAR(50),
+    BikeModel VARCHAR(50),
+    ReleaseYear INT,
+    Country VARCHAR(50)
+);
+
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('X8aBnYp2C3', 'Yamaha', 'Yamaha YZF R1', 1998, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('Qs7RtLw9Z1', 'Honda', 'Honda CBR1000RR', 2004, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES     
+('M4dEfGh6I8', 'Suzuki', 'Suzuki GSX-R1000', 2001, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('J2kL5mNpO7', 'Kawasaki', 'Kawasaki Ninja ZX-10R', 2004, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('A9bC8dE4F6', 'Ducati', 'Ducati Panigale V4', 2018, 'Italy');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('W3xYz1U7V2', 'BMW', 'BMW S1000RR', 2009, 'Germany');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('P5qR8sT2u7', 'KTM', 'KTM RC 390', 2014, 'Austria');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('H4iJ6kL9M3', 'Harley', 'Harley-Davidson Fat Boy', 1990, 'USA');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('X7oA2bC6D9', 'Triumph', 'Triumph Bonneville T120', 2016, 'UK');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('G1hK3lM5n8', 'Royal', 'Royal Enfield Classic 350', 2008, 'India');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('Z9xV8cB4w2', 'Kawasaki', 'Kawasaki Z900', 2017, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('S6dF1gH7j3', 'Yamaha', 'Yamaha MT-07', 2014, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('L2kP9oQ4r8', 'Honda', 'Honda CB650R', 2019, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('U5vW3yZ7x2', 'Suzuki', 'Suzuki SV650', 1999, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('T1aS6mR8p3', 'Ducati', 'Ducati Monster 821', 2014, 'Italy');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('N9qI2wE5f7', 'BMW', 'BMW R1250GS', 2019, 'Germany');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('O3cX8vY1b6', 'KTM', 'KTM 1290 Super Duke R', 2014, 'Austria');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('B4nM7vL2k9', 'Harley', 'Harley-Davidson Iron 883', 2010, 'USA');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('J6hG3yT8s1', 'Triumph', 'Triumph Street Triple RS', 2007, 'UK');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('D9fR7gE2h5', 'Royal', 'Royal Enfield Himalayan', 2016, 'India');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('C1jK4lM8n2', 'Kawasaki', 'Kawasaki Ninja 650', 2006, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('H3oQ6pW9r2', 'Yamaha', 'Yamaha FZ-09', 2014, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('U7vI2xY8z1', 'Honda', 'Honda CRF450L', 2019, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('S5gA9bC3D6', 'Suzuki', 'Suzuki DR650', 1990, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('X1wZ7rT2q8', 'Ducati', 'Ducati Scrambler', 2015, 'Italy');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('P9lO7kI3j2', 'BMW', 'BMW G310GS', 2017, 'Germany');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('N6hM2oB8c1', 'KTM', 'KTM 390 Adventure', 2020, 'Austria');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('V3gT6bF1s7', 'Harley', 'Harley-Davidson Street Glide', 2006, 'USA');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('L9uW5iQ2p8', 'Triumph', 'Triumph Tiger 800', 2010, 'UK');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('R4yZ7xV1n8', 'Royal', 'Royal Enfield Interceptor 650', 2018, 'India');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('F2hG9jK7L5', 'Kawasaki', 'Kawasaki Vulcan S', 2015, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('E3dA8sB1c6', 'Yamaha', 'Yamaha VMAX', 2008, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('Y5zX1vT7q2', 'Honda', 'Honda Goldwing', 1974, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('W8rU2mP6o3', 'Suzuki', 'Suzuki Hayabusa', 1999, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('Q9sL4pN1k7', 'Ducati', 'Ducati Diavel', 2010, 'Italy');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('I2hO5jQ8w3', 'BMW', 'BMW R nineT', 2014, 'Germany');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('B4cF7dR2m9', 'KTM', 'KTM 690 Enduro R', 2008, 'Austria');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('V8tY3xZ6n1', 'Harley', 'Harley-Davidson Road King', 1994, 'USA');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('A2bE6gH9i3', 'Triumph', 'Triumph Speed Triple', 1994, 'UK');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('U5vC1bX8q2', 'Royal', 'Royal Enfield Bullet 500', 1932, 'India');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('K3lN7mP1o9', 'Kawasaki', 'Kawasaki Versys 650', 2006, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('S4yD8wQ2z6', 'Yamaha', 'Yamaha XSR900', 2016, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('G9fH2rL7t1', 'Honda', 'Honda Rebel 500', 2017, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('X3cB6vA1n8', 'Suzuki', 'Suzuki V-Strom 650', 2004, 'Japan');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('O5pW9qI2u8', 'Ducati', 'Ducati Multistrada V4', 2021, 'Italy');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('T1hJ7zU2y6', 'BMW', 'BMW F900R', 2020, 'Germany');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('R8kM3lV7n1', 'KTM', 'KTM 790 Duke', 2018, 'Austria');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('E2gB5fC9i7', 'Harley', 'Harley-Davidson Sportster Forty-Eight', 2010, 'USA');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('Q4xP9oL2y6', 'Triumph', 'Triumph Rocket 3', 2004, 'UK');
+INSERT INTO Bikes (BikeID, BikeCompanyName, BikeModel, ReleaseYear, Country) VALUES 
+('N7uZ2vI5w8', 'Royal', 'Royal Enfield Meteor 350', 2020, 'India');
+
+Retrieve all rows and columns from all the tables.
+SELECT *
+FROM Car;
+
+Retrieve Car_Name & Country from Car.
+SELECT Car_Name, Country
+FROM Car;
+
+Retrieve Car_ID, Car_Name & Country from Car.
+SELECT Car_ID, Car_Name, Country
+FROM Car;
+
+Retrieve all Car_ID from Car.
+SELECT distinct Car_ID
+FROM Car;
+
+Retrieve Car names in descending order.
+SELECT Car_Name
+FROM Cars order by Car_Name
+desc;
+
+Retrieve all Car names whose name starts from letter 'S'.
+SELECT Car_Name
+FROM Cars
+WHERE Car_Name like 'S%';
+
+Fetch name of the country that starts with a single 'G' or
+ends with 'y'.
+SELECT country
+FROM car
+WHERE country
+LIKE 'G%' or name like '%y';
+
+Retrieve all data from Car whose Country=
+'South Korea'.
+SELECT *
+FROM Car
+WHERE Country =
+'South Korea';
+
+Get all Car Name from Car whose Country='USA'.
+SELECT *
+FROM Car
+WHERE Country ='USA';
+
+Retrieve names of Car who have Release Year >= 2019.
+SELECT Car_Name
+FROM Car
+WHERE Release_Year >= 2019;
+
+Get all Car names whose Release Year is in between 2016 to 2020.
+SELECT car_name
+FROM cars
+WHERE release_year
+BETWEEN 2016 AND 2020;
+
+Fetch name of the country that starts with any letter followed by '_rea'.
+DELETE
+FROM Car
+WHERE Release_year <2019;
+
+SELECT country
+FROM car
+WHERE country
+LIKE '_rea';
+
+Delete all the car name from car whose release year is less than 2019.
+Delete all the cars that contain car model 'SUV'.
+DELETE
+FROM cars
+WHERE car_model ='SUV';
+
+Retrieve all the cars that are NOT ‘Sedan’ and ‘Coupe’.
+SELECT *
+FROM Cars
+WHERE CarModel
+NOT IN ('Sedan','Coupe');
+
+Get the total number of cars.
+SELECT
+SUM(1) AS TotalCars
+FROM Cars;
+
+Update Cars SET whose ReleaseYear = 2022 and CarID = 'ABC123'
+UPDATE Cars SET ReleaseYear = 2022
+WHERE CarID ='ABC123';
+
+Sort the ReleaseYear column in ascending order.
+ORDER BY
+ReleaseYear ASC;
+
+SELECT Cars.CarID, Cars.CarName,
+Bikes.BikeID, Bikes.BikeName
+FROM Cars
+INNER JOIN Bikes ON Cars.CarID =
+Bikes.CarID;
+
+SELECT Cars.CarID, Cars.CarName,
+Bikes.BikeID, Bikes.BikeName
+FROM Cars
+RIGHT OUTER JOIN Bikes ON Cars.CarID =
+Bikes.CarID;
+
+SELECT city.name, country.name
+FROM city
+LEFT JOIN country
+ON city.country_id = country.id;
+
+SELECT city.name, country.name
+FROM city
+FULL JOIN country
+ON city.country_id = country.id;
+
+SELECT city.name, country.name
+FROM city
+CROSS JOIN country;
+SELECT city.name, country.name
+FROM city, country;
+
+SELECT city.name, country.name
+FROM city
+NATURAL JOIN country;
+
+Display German cars together with German bikers:
+SELECT name
+FROM Cars
+WHERE country =‘Germany'
+UNION / UNION ALL
+SELECT name
+FROM Bikes
+WHERE country ='Germany';
+
+Display German cars who are also German bike at the
+same time:
+SELECT name
+FROM cars
+WHERE country ='German'
+INTERSECT
+SELECT name
+FROM bikes
+WHERE country ='German';
+
+SELECT name
+FROM cycling
+WHERE country ='Germany'
+EXCEPT
+SELECT name
+FROM skating
+WHERE country ='Germany';
+
+Find out the number of cars:
+SELECT COUNT(*)
+FROM cars;
+
+Find out the number of cars with country:
+SELECT Country,
+COUNT(*) AS TotalCars
+FROM Cars GROUP BY
+Country;
+
+Find the minimum release year of cars:
+SELECT
+MIN(ReleaseYear) AS MinReleaseYear
+FROM Cars;
+
+Find the maximun release year of cars:
+SELECT
+MAX(ReleaseYear) AS MaxReleaseYear
+FROM Cars;
+
+Find the average release year of cars:
+SELECT
+AVG(ReleaseYear) AS AvgReleaseYear
+FROM Cars;
+
+Get car name in upper case from car:
+SELECT
+UPPER(CarName) AS UppercaseCarName
+FROM Cars;
+
+Get car name in lower case from car:
+SELECT
+LOWER(CarName) AS LowercaseCarName
+FROM Cars;
+
+Get sum of cars:
+SELECT
+SUM(*) AS TotalCars
+FROM Cars;
+
+Use a scalar subquery to find the average release year for all cars:
+SELECT CarName, ReleaseYear,
+AS AvgReleaseYear
+FROM Cars;
+
+Details of the car released in the same year as CarID XYZ789:
+SELECT CarID, CarName, Country, CarType, ReleaseYear
+FROM Cars
+WHERE ReleaseYear = (SELECT ReleaseYear FROM Cars WHERE
+CarID = XYZ789);
+
+find all the cars released in the same year as at least one car from Germany.
+SELECT CarName, ReleaseYear
+FROM Cars
+WHERE ReleaseYear IN (SELECT ReleaseYear FROM Cars
+WHERE Country ='Germany';
+
+find cars that were released in the same year as the "Toyota Camry".
+SELECT CarName, Country, CarType, ReleaseYear
+FROM Cars c1
+WHERE ReleaseYear = (SELECT ReleaseYear FROM Cars
+c2 WHERE CarName ='Toyota Camry';
+
+find cars from the same country and of the same type that were released in
+the same year as the 'Toyota Camry' (assuming CarID = XYZ789).
+SELECT CarName, Country, CarType, ReleaseYear
+FROM Cars
+WHERE (Country, CarType, ReleaseYear) IN
+(SELECT Country, CarType, ReleaseYear
+FROM Cars
+WHERE CarID = XYZ789;
+
+
